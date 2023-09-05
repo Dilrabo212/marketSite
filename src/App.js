@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+import Hafsizlik from "./components/Hafsizlik/Hafsizlik";
+import Header from "./components/Header";
+import Ishchilar from "./components/Ishchilar/Ishchilar";
+import Kuzatuv from "./components/Kuzatuv/Kuzatuv";
+import Maxsulotlar from "./components/Maxsulotlar/Maxsulotlar";
+import Mijoz from "./components/Mijoz/Mijoz";
+import Narxlar from "./components/Narxlar/Narxlar";
+import SecondPage from "./components/SecondPage/SecondPage";
+import TezKunda from "./components/TezKunda/TezKunda";
+import TranzAcsiyalar from "./components/TranzAcsiyalar/TranzAcsiyalar";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <Header />
+      {/* <Body /> */}
+      <SecondPage />
+      <Maxsulotlar />
+      <Kuzatuv />
+      <Mijoz />
+      <TranzAcsiyalar />
+      <Ishchilar />
+      <Hafsizlik />
+      <Narxlar />
+      <TezKunda />
+      <Footer />
+
+    </>
   );
 }
 

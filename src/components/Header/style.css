@@ -1,0 +1,98 @@
+.header {
+    width: 100%;
+}
+
+.headerWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headerWrapLeftInfo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.headerWrapLeftInfo>span {
+    margin: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.HearderWrapperRightInfo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.leanguage {
+    width: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.contact {
+    width: auto;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+
+.phonNumber {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+select {
+    font-size: 15px;
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    background-color: transparent;
+    padding: 10px 25px;
+    cursor: pointer;
+
+}
+
+select>option {
+    padding: 10px;
+    background-color: transparent;
+    font-size: 15px;
+    outline: none;
+}
+
+.imgFlag {
+    position: absolute;
+    top: 30px;
+}
+
+
+.kirish {
+    width: auto;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.royxatBtn {
+    width: auto;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(58, 136, 5);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+}

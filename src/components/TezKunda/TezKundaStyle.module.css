@@ -1,0 +1,63 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding: 30px;
+}
+
+.tezkunda {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.imgColumn1 {
+    background-image: url(../../img/photo1.png);
+    width: 55%;
+    height: 510px;
+    overflow: hidden;
+    opacity: 0.5;
+    font-size: 20px;
+    color: aliceblue;
+    padding-top: 450px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+.imgColumn {
+    width: 50%;
+    height: 510px;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.img4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.imgMiniBox {
+    width: 100%;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgColumn1:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.imgColumn:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.6s;
+}

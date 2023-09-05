@@ -1,0 +1,30 @@
+.text {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.btn {
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: blueviolet;
+    border-bottom: 0.5px solid blueviolet;
+
+}
+
+.btn:active {
+    cursor: pointer;
+    color: blueviolet;
+    border-bottom: 0.5px solid blueviolet;
+
+}
